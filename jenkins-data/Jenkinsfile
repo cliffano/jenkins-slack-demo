@@ -1,0 +1,47 @@
+pipeline {
+  agent any
+  stages {
+    stage('Clone') {
+      steps {
+        sh 'echo "Cloning repository..."'
+        sh 'sleep 5'
+      }
+    }
+    stage('Dependencies') {
+      steps {
+        sh 'echo "Resolving dependencies..."'
+        sh 'sleep 5'
+      }
+    }
+    stage('Lint') {
+      steps {
+        sh 'echo "Running lint checks..."'
+        sh 'sleep 5'
+      }
+    }
+    stage('Unit Tests') {
+      steps {
+        sh 'echo "Running unit tests..."'
+        sh 'sleep 5'
+      }
+    }
+    stage('Integration Tests') {
+      steps {
+        sh 'echo "Running integration tests..."'
+        sh 'sleep 5'
+      }
+    }
+    stage('Package') {
+      steps {
+        sh 'echo "Creating package..."'
+        sh 'sleep 5'
+      }
+    }
+    stage('Deploy') {
+      steps {
+        sh 'echo "Deploying package..."'
+        sh 'sleep 5'
+      }
+    }
+  }
+}

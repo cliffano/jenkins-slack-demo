@@ -1,0 +1,15 @@
+{
+  "name": "jenkins-slack-webhooks",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "serverless.com",
+  "license": "MIT",
+  "dependencies": {
+    "serverless-google-cloudfunctions": "^1.1.0",
+    "swaggy-jenkins": "^0.0.2"
+  }
+}

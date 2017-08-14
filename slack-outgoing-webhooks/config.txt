@@ -1,0 +1,9 @@
+# Sample settings for Outgoing WebHooks
+
+Channel: "#test"
+Trigger Word(s): "jenkins:"
+URL(s): "<cloudfunctions_webhooks_url>"
+Token: "<generated_slack_token>"
+Descriptive Label: "Jenkins Outgoing WebHook"
+Customize Name: "jenkins-slack-bot"
+Customize Icon: "slack-outgoing-webhooks/icon.jpg"

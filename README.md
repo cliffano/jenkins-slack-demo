@@ -3,7 +3,9 @@
 Jenkins Slack Demo
 -------------------
 
-Demo project for [Jenkins CI](http://jenkins-ci.org) and [Slack](https://slack.com) integration using Google Cloud Functions as the webhooks.
+Demo project for [Jenkins CI](http://jenkins-ci.org) and [Slack](https://slack.com) integration using Google Cloud Functions as the webhooks and [swaggy-jenkins](https://www.npmjs.com/package/swaggy-jenkins) node.js library.
+
+[![Architecture Diagram](https://raw.github.com/cliffano/jenkins-slack-demo/master/screenshot.jpg)](https://raw.github.com/cliffano/jenkins-slack-demo/master/screenshot.jpg)
 
 Architecture
 ------------

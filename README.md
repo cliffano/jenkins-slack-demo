@@ -46,7 +46,7 @@ Create Jenkins jobs:
 
 Deploy Jenkins Cloud Functions webhooks:
 
-    make deploy-cloudfunctions-webhooks
+    make deps deploy-cloudfunctions-webhooks
 
 Login to Slack and create [outgoing webhooks](https://api.slack.com/custom-integrations/outgoing-webhooks) using sample values in `slack-outgoing-webhooks/config.txt` as a guideline.
 
